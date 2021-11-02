@@ -26,6 +26,7 @@ public class cadastro extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        Titulo = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -39,103 +40,211 @@ public class cadastro extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jTextField4 = new javax.swing.JTextField();
+        jTextField5 = new javax.swing.JTextField();
+        jTextField6 = new javax.swing.JTextField();
+        jTextField7 = new javax.swing.JTextField();
+        jTextField8 = new javax.swing.JTextField();
+        jTextField9 = new javax.swing.JTextField();
+        jTextField10 = new javax.swing.JTextField();
+        jTextField11 = new javax.swing.JTextField();
+        jTextField12 = new javax.swing.JTextField();
+        jTextField13 = new javax.swing.JTextField();
+        jTextField14 = new javax.swing.JTextField();
+        jTextField1 = new javax.swing.JTextField();
+        jSeparator1 = new javax.swing.JSeparator();
+        jSeparator2 = new javax.swing.JSeparator();
+        jSeparator3 = new javax.swing.JSeparator();
+        jSeparator4 = new javax.swing.JSeparator();
+        jSeparator5 = new javax.swing.JSeparator();
+        jSeparator6 = new javax.swing.JSeparator();
+        jSeparator7 = new javax.swing.JSeparator();
+        background = new javax.swing.JLabel();
+        jSeparator8 = new javax.swing.JSeparator();
+        jSeparator9 = new javax.swing.JSeparator();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
 
-        jLabel1.setText("Área de Cadastro");
+        Titulo.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        Titulo.setForeground(new java.awt.Color(102, 102, 102));
+        Titulo.setText("Soil Correction -  Instituto de Desenvolvimento Rural do Paraná");
+        Titulo.setToolTipText("");
+        getContentPane().add(Titulo);
+        Titulo.setBounds(80, 10, 450, 30);
 
-        jLabel2.setText("Produtor:");
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel1.setText("Produtor:");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(20, 90, 60, 20);
 
-        jLabel3.setText("Textura do solo: ");
+        jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel2.setText("Data:");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(220, 90, 40, 20);
 
-        jLabel4.setText("Data");
+        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel3.setText("Municipio:");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(380, 90, 70, 20);
 
-        jLabel5.setText("Município: ");
+        jLabel4.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel4.setText("Lote:");
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(20, 140, 40, 17);
 
-        jLabel6.setText("Lote:");
+        jLabel5.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel5.setText("Área Total:");
+        getContentPane().add(jLabel5);
+        jLabel5.setBounds(190, 140, 70, 17);
 
-        jLabel7.setText("Área total:");
+        jLabel6.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel6.setText("Talhão:");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(400, 140, 50, 17);
 
-        jLabel8.setText("Talhao");
+        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel7.setText("Área do Talhão (ha):");
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(20, 190, 140, 17);
 
-        jLabel9.setText("Área do Talhão:");
+        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel8.setText("Matrícula do Lote:");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(300, 190, 120, 17);
 
-        jLabel10.setText("Matrícul do Lote:");
+        jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel9.setText("Textura do Solo: ");
+        getContentPane().add(jLabel9);
+        jLabel9.setBounds(10, 240, 110, 17);
 
-        jLabel11.setText("Sistema de Cultivo:");
+        jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel10.setText("Sistema de Cultivo:");
+        getContentPane().add(jLabel10);
+        jLabel10.setBounds(290, 240, 130, 17);
 
-        jLabel12.setText("Responsavel tecnico");
+        jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel11.setText("Responsável Técnico:");
+        getContentPane().add(jLabel11);
+        jLabel11.setBounds(10, 290, 150, 17);
 
-        jLabel13.setText("profundidade da amostra de solos");
+        jLabel12.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel12.setText("Profundidade da Amostra de Solos:");
+        getContentPane().add(jLabel12);
+        jLabel12.setBounds(280, 290, 230, 17);
 
-        jLabel14.setText("Resultado da análise de solos");
+        jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel13.setText("Resultado da Análise de Solos Nº :");
+        getContentPane().add(jLabel13);
+        jLabel13.setBounds(110, 340, 220, 17);
+        getContentPane().add(jTextField3);
+        jTextField3.setBounds(460, 90, 140, 20);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(157, 157, 157)
-                        .addComponent(jLabel1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel9)
-                            .addComponent(jLabel10)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel11)
-                            .addComponent(jLabel12)
-                            .addComponent(jLabel13)
-                            .addComponent(jLabel14)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jLabel8)))
-                .addContainerGap(280, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(33, 33, 33)
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel2)
-                .addGap(9, 9, 9)
-                .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel6)
-                .addGap(22, 22, 22)
-                .addComponent(jLabel8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel9)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel10)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel3)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel11)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel12)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel14)
-                .addContainerGap(106, Short.MAX_VALUE))
-        );
+        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField4ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField4);
+        jTextField4.setBounds(60, 140, 110, 20);
+        getContentPane().add(jTextField5);
+        jTextField5.setBounds(270, 140, 120, 20);
+        getContentPane().add(jTextField6);
+        jTextField6.setBounds(450, 140, 150, 20);
 
-        pack();
+        jTextField7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField7ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField7);
+        jTextField7.setBounds(160, 190, 130, 20);
+        getContentPane().add(jTextField8);
+        jTextField8.setBounds(420, 190, 180, 20);
+        getContentPane().add(jTextField9);
+        jTextField9.setBounds(130, 240, 130, 20);
+
+        jTextField10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField10ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField10);
+        jTextField10.setBounds(420, 240, 180, 20);
+        getContentPane().add(jTextField11);
+        jTextField11.setBounds(510, 290, 90, 20);
+        getContentPane().add(jTextField12);
+        jTextField12.setBounds(340, 340, 180, 20);
+        getContentPane().add(jTextField13);
+        jTextField13.setBounds(150, 290, 120, 20);
+
+        jTextField14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField14ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField14);
+        jTextField14.setBounds(80, 90, 130, 20);
+        getContentPane().add(jTextField1);
+        jTextField1.setBounds(260, 90, 110, 20);
+
+        jSeparator1.setForeground(new java.awt.Color(153, 153, 153));
+        jSeparator1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(jSeparator1);
+        jSeparator1.setBounds(10, 10, 600, 30);
+        getContentPane().add(jSeparator2);
+        jSeparator2.setBounds(140, 140, 0, 2);
+        getContentPane().add(jSeparator3);
+        jSeparator3.setBounds(-10, 120, 640, 20);
+        getContentPane().add(jSeparator4);
+        jSeparator4.setBounds(-30, 170, 680, 10);
+        getContentPane().add(jSeparator5);
+        jSeparator5.setBounds(-20, 220, 660, 10);
+        getContentPane().add(jSeparator6);
+        jSeparator6.setBounds(-30, 270, 690, 10);
+        getContentPane().add(jSeparator7);
+        jSeparator7.setBounds(-50, 320, 700, 20);
+
+        background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Views/img/fundo-branco-abstrat.jpg"))); // NOI18N
+        getContentPane().add(background);
+        background.setBounds(0, 0, 630, 410);
+        getContentPane().add(jSeparator8);
+        jSeparator8.setBounds(160, 332, 430, 10);
+        getContentPane().add(jSeparator9);
+        jSeparator9.setBounds(150, 342, 310, 10);
+
+        setBounds(0, 0, 640, 451);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jTextField14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField14ActionPerformed
+
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4ActionPerformed
+
+    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField7ActionPerformed
+
+    private void jTextField10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField10ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -173,12 +282,13 @@ public class cadastro extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Titulo;
+    private javax.swing.JLabel background;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -187,5 +297,27 @@ public class cadastro extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JSeparator jSeparator6;
+    private javax.swing.JSeparator jSeparator7;
+    private javax.swing.JSeparator jSeparator8;
+    private javax.swing.JSeparator jSeparator9;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField11;
+    private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
     // End of variables declaration//GEN-END:variables
 }

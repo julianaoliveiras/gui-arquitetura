@@ -1,4 +1,11 @@
-# INTRODUÇÃO
+# Soil Correction - Interfaces
+O objetivo deste projeto é o desenvolvimento de interfaces gráficas com o usuário (GUI) de uma ferramenta que tem como parceria o [Instituto de Desenvolvimento Rural do Paraná - IDR](http://www.idrparana.pr.gov.br/).
 
-Esta atividade dá continuidade ao desenvolvimento da arquitetura do aplicativo para correção de solos. O objetivo dessa atividade é desenvolver a interface gráfica com o usuário (GUI) do aplicativo para correção de solos. A GUI constitui uma parte da arquitetura de deploy da aplicação, e é fortemente influenciada pelas técnicas e tecnologias usadas no desenvolvimento. Posteriomente, essa GUI será ligada ao restante da aplicação já desenvolvida.
+## Interfaces:
+
+- Primeira interface, que tem como finalidade o cadastro de informações para a correção do solo. 
+> <img src="./Telas/tela-cadastro.png">
+
+- Segunda interface que tem como finalidade o cadastro de informações para a correção do solo.
+> <img src="./Telas/tela-teores.png">
 

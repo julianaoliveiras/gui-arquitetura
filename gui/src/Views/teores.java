@@ -29,6 +29,7 @@ public class teores extends javax.swing.JFrame {
         jCheckBoxMenuItem1 = new javax.swing.JCheckBoxMenuItem();
         jCheckBoxMenuItem2 = new javax.swing.JCheckBoxMenuItem();
         jMenu1 = new javax.swing.JMenu();
+        jSeparator1 = new javax.swing.JSeparator();
         Titulo = new javax.swing.JLabel();
         jSeparator3 = new javax.swing.JSeparator();
         canvas1 = new java.awt.Canvas();
@@ -50,10 +51,8 @@ public class teores extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
-        jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
         jSeparator8 = new javax.swing.JSeparator();
@@ -81,6 +80,13 @@ public class teores extends javax.swing.JFrame {
         jTextField12 = new javax.swing.JTextField();
         jTextField13 = new javax.swing.JTextField();
         jTextField14 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jLabel11 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jSeparator2 = new javax.swing.JSeparator();
         jLabel2 = new javax.swing.JLabel();
 
         jCheckBoxMenuItem1.setSelected(true);
@@ -156,19 +162,19 @@ public class teores extends javax.swing.JFrame {
 
         jSeparator4.setOrientation(javax.swing.SwingConstants.VERTICAL);
         getContentPane().add(jSeparator4);
-        jSeparator4.setBounds(610, 80, 10, 260);
+        jSeparator4.setBounds(610, 80, 10, 230);
 
         jLabel9.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(102, 102, 102));
         jLabel9.setText("Cálcio:");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(170, 210, 60, 20);
+        jLabel9.setBounds(170, 200, 60, 20);
 
         jLabel10.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(102, 102, 102));
         jLabel10.setText("Magnésio:");
         getContentPane().add(jLabel10);
-        jLabel10.setBounds(170, 280, 70, 20);
+        jLabel10.setBounds(170, 260, 70, 20);
 
         jSeparator5.setForeground(new java.awt.Color(153, 153, 153));
         jSeparator5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -240,17 +246,6 @@ public class teores extends javax.swing.JFrame {
         getContentPane().add(jLabel27);
         jLabel27.setBounds(200, 160, 40, 30);
 
-        jLabel28.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel28.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel28.setText("Ideal:");
-        jLabel28.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusGained(java.awt.event.FocusEvent evt) {
-                jLabel28FocusGained(evt);
-            }
-        });
-        getContentPane().add(jLabel28);
-        jLabel28.setBounds(200, 230, 40, 30);
-
         jLabel29.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel29.setForeground(new java.awt.Color(0, 51, 0));
         jLabel29.setText("0,6");
@@ -260,7 +255,7 @@ public class teores extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel29);
-        jLabel29.setBounds(240, 230, 30, 30);
+        jLabel29.setBounds(250, 220, 30, 30);
 
         jLabel30.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel30.setForeground(new java.awt.Color(102, 102, 102));
@@ -271,18 +266,7 @@ public class teores extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel30);
-        jLabel30.setBounds(200, 230, 40, 30);
-
-        jLabel31.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel31.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel31.setText("Ideal:");
-        jLabel31.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusGained(java.awt.event.FocusEvent evt) {
-                jLabel31FocusGained(evt);
-            }
-        });
-        getContentPane().add(jLabel31);
-        jLabel31.setBounds(210, 300, 40, 30);
+        jLabel30.setBounds(210, 220, 40, 30);
 
         jLabel32.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel32.setForeground(new java.awt.Color(0, 51, 0));
@@ -293,7 +277,7 @@ public class teores extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel32);
-        jLabel32.setBounds(250, 300, 30, 30);
+        jLabel32.setBounds(250, 280, 30, 30);
 
         jLabel33.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel33.setForeground(new java.awt.Color(102, 102, 102));
@@ -304,11 +288,11 @@ public class teores extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLabel33);
-        jLabel33.setBounds(210, 300, 40, 30);
+        jLabel33.setBounds(210, 280, 40, 30);
 
         jSeparator8.setOrientation(javax.swing.SwingConstants.VERTICAL);
         getContentPane().add(jSeparator8);
-        jSeparator8.setBounds(160, 80, 10, 260);
+        jSeparator8.setBounds(160, 80, 10, 230);
 
         jLabel13.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(102, 102, 102));
@@ -367,11 +351,11 @@ public class teores extends javax.swing.JFrame {
 
         jSeparator10.setOrientation(javax.swing.SwingConstants.VERTICAL);
         getContentPane().add(jSeparator10);
-        jSeparator10.setBounds(300, 80, 10, 260);
+        jSeparator10.setBounds(300, 80, 10, 230);
 
         jSeparator11.setOrientation(javax.swing.SwingConstants.VERTICAL);
         getContentPane().add(jSeparator11);
-        jSeparator11.setBounds(410, 80, 10, 260);
+        jSeparator11.setBounds(410, 80, 10, 230);
 
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -428,7 +412,7 @@ public class teores extends javax.swing.JFrame {
 
         jSeparator12.setOrientation(javax.swing.SwingConstants.VERTICAL);
         getContentPane().add(jSeparator12);
-        jSeparator12.setBounds(520, 80, 10, 260);
+        jSeparator12.setBounds(520, 80, 10, 230);
 
         jSeparator13.setForeground(new java.awt.Color(153, 153, 153));
         jSeparator13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -475,7 +459,7 @@ public class teores extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField12);
-        jTextField12.setBounds(240, 210, 30, 20);
+        jTextField12.setBounds(240, 200, 30, 20);
 
         jTextField13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -483,7 +467,7 @@ public class teores extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jTextField13);
-        jTextField13.setBounds(240, 280, 30, 20);
+        jTextField13.setBounds(240, 260, 30, 20);
 
         jTextField14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -492,6 +476,50 @@ public class teores extends javax.swing.JFrame {
         });
         getContentPane().add(jTextField14);
         jTextField14.setBounds(370, 140, 30, 20);
+
+        jLabel7.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel7.setText("CTC cmol:");
+        getContentPane().add(jLabel7);
+        jLabel7.setBounds(230, 320, 70, 17);
+
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField1);
+        jTextField1.setBounds(130, 320, 60, 20);
+
+        jLabel8.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel8.setText("V% atual: ");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(410, 320, 70, 17);
+
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField2);
+        jTextField2.setBounds(480, 320, 60, 20);
+
+        jLabel11.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel11.setText("S cmol:");
+        getContentPane().add(jLabel11);
+        jLabel11.setBounds(80, 320, 50, 17);
+
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextField3);
+        jTextField3.setBounds(300, 320, 60, 20);
+        getContentPane().add(jSeparator2);
+        jSeparator2.setBounds(-10, 310, 650, 10);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Views/img/fundo-branco-abstrat.jpg"))); // NOI18N
         getContentPane().add(jLabel2);
@@ -532,10 +560,6 @@ public class teores extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel27FocusGained
 
-    private void jLabel28FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jLabel28FocusGained
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel28FocusGained
-
     private void jLabel29FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jLabel29FocusGained
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel29FocusGained
@@ -543,10 +567,6 @@ public class teores extends javax.swing.JFrame {
     private void jLabel30FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jLabel30FocusGained
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel30FocusGained
-
-    private void jLabel31FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jLabel31FocusGained
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel31FocusGained
 
     private void jLabel32FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jLabel32FocusGained
         // TODO add your handling code here:
@@ -612,6 +632,18 @@ public class teores extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField14ActionPerformed
 
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -656,6 +688,7 @@ public class teores extends javax.swing.JFrame {
     private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
@@ -668,11 +701,9 @@ public class teores extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
     private javax.swing.JLabel jLabel34;
@@ -682,14 +713,18 @@ public class teores extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator10;
     private javax.swing.JSeparator jSeparator11;
     private javax.swing.JSeparator jSeparator12;
     private javax.swing.JSeparator jSeparator13;
     private javax.swing.JSeparator jSeparator15;
     private javax.swing.JSeparator jSeparator17;
+    private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
     private javax.swing.JSeparator jSeparator5;
@@ -697,11 +732,14 @@ public class teores extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator7;
     private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
+    private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
     private javax.swing.JTextField jTextField13;
     private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField9;
     // End of variables declaration//GEN-END:variables

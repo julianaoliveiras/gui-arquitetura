@@ -248,7 +248,7 @@ public class teores extends javax.swing.JFrame {
 
         jLabel29.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel29.setForeground(new java.awt.Color(0, 51, 0));
-        jLabel29.setText("0,6");
+        jLabel29.setText("6,0");
         jLabel29.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 jLabel29FocusGained(evt);
